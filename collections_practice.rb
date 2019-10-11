@@ -56,7 +56,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map_with_index do |word, i|
+  array.map.with_index do |word, i|
     if i == 1
       return word
     else
