@@ -50,7 +50,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.reduce do |total, current|
+  array.reduce(0) do |total, current|
     total += current
   end
 end
