@@ -37,6 +37,6 @@ end
 
 def kesha_maker(array)
   array.collect do |word|
-
+    word.char_at(3) = $  
   end
 end
