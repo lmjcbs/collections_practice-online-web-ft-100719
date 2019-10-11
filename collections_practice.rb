@@ -51,6 +51,6 @@ end
 
 def sum_array(array)
   array.reduce do |total, current|
-
+    total += current
   end
 end
