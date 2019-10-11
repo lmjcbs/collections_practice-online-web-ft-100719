@@ -57,6 +57,9 @@ end
 
 def add_s(array)
   array.map do |word, index| word + "s" unless array[index] == 1
-
+    if array[index] == 1
+      word
+    else
+      word + "s"
   end
 end
