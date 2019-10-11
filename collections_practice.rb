@@ -63,5 +63,4 @@ def add_s(array)
       return word + "s"
     end
   end
-  array
 end
